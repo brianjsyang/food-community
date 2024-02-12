@@ -20,11 +20,11 @@ export default function CommunityPage() {
         <ul className={classes.perks}>
           <li>
             <Image src={mealIcon} alt="A delicious meal" />
-            <p>Share & discover recipes</p>
+            <p>Share &amp; discover recipes</p>
           </li>
           <li>
             <Image src={communityIcon} alt="A crowd of people, cooking" />
-            <p>Find new friends & like-minded people</p>
+            <p>Find new friends &amp; like-minded people</p>
           </li>
           <li>
             <Image

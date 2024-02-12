@@ -14,7 +14,7 @@ export default function Home() {
         <div>
           <div className={classes.hero}>
             <h1>NextFood Community for Next Level Foodies</h1>
-            <p>Taste & share food from all over the world.</p>
+            <p>Taste &amp; share food from all over the world.</p>
           </div>
           <div className={classes.cta}>
             <Link href="/community">Join the Community</Link>
