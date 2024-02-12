@@ -2,13 +2,13 @@ import classes from '@/app/meals/page.module.css';
 import MealsGrid from '@/components/meals/meals-grid';
 import Link from 'next/link';
 
-import { fetchMeal } from '@/lib/data';
+import { fetchMeals } from '@/lib/data';
 import { Suspense } from 'react';
 
 
 async function Meals() {
   // out-sourced the data fetching part to separate component!
-  const meals = await fetchMeal();
+  const meals = await fetchMeals();
   
   return <MealsGrid meals={meals}/>
 }
