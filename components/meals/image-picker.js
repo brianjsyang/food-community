@@ -50,7 +50,7 @@ export default function ImagePicker({ label, name }) {
           name={name}
           ref={imageInput}
           onChange={handleImageChange}
-          required  // make sure we have an image!
+          //required  // make sure we have an image!
         />
         <button 
           className={classes.button} 
